@@ -11,6 +11,9 @@ inputs:
   release-tag:
     required: false
     description: 'git tag associated with release (optional)'
+  release-name-prefix:
+    required: false
+    description: 'prefix for the version number, to be used as Jira Release Name'
 runs:
   using: 'node16'
   main: 'dist/index.js'
